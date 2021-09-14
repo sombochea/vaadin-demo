@@ -3,7 +3,6 @@ package com.cubetiqs.vaadin.demo
 import com.vaadin.flow.component.AttachEvent
 import com.vaadin.flow.component.DetachEvent
 import com.vaadin.flow.component.Text
-import com.vaadin.flow.component.UI
 import com.vaadin.flow.component.applayout.AppLayout
 import com.vaadin.flow.component.button.Button
 import com.vaadin.flow.component.formlayout.FormLayout
@@ -54,6 +53,7 @@ class HomeView : Div() {
 		"Option A",
 		"Option B",
 		"Option C",
+		"Option D",
 	)
 
     init {
