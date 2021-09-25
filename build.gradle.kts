@@ -1,11 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.springframework.boot") version "2.5.4"
+	id("org.springframework.boot") version "2.5.5"
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	id("com.vaadin") version "0.14.6.0"
-	kotlin("jvm") version "1.5.21"
-	kotlin("plugin.spring") version "1.5.21"
+	kotlin("jvm") version "1.5.31"
+	kotlin("plugin.spring") version "1.5.31"
 }
 
 group = "com.cubetiqs"
@@ -16,7 +16,7 @@ repositories {
 	maven("https://m.ctdn.net")
 }
 
-extra["vaadinVersion"] = "14.7.0.rc1"
+extra["vaadinVersion"] = "14.7.0"
 
 dependencies {
 	implementation("com.vaadin:vaadin-spring-boot-starter")
